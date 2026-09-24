@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; background: #f4f7f6; color: #222; }
+header { background: #0d8a5f; color: #fff; padding: 18px 30px; display: flex; justify-content: space-between; align-items: center; }
+header h1 { margin: 0; font-size: 22px; }
+nav a { color: #fff; margin-left: 18px; text-decoration: none; font-weight: 600; }
+nav a:hover { text-decoration: underline; }
+.container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.card h3 { margin: 8px 0 4px; font-size: 17px; }
+.badge { display: inline-block; font-size: 12px; padding: 3px 8px; border-radius: 12px; background: #e0f2ea; color: #0d8a5f; margin-bottom: 6px; }
+.badge.receita { background: #fde3e3; color: #b30000; }
+.preco { font-size: 18px; font-weight: 700; color: #0d8a5f; margin-top: 8px; }
+.estoque { font-size: 13px; color: #666; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
+table th, table td { padding: 10px 12px; border-bottom: 1px solid #eee; text-align: left; font-size: 14px; }
+table th { background: #0d8a5f; color: #fff; }
+tr:hover { background: #f9f9f9; }
+.btn { display: inline-block; padding: 6px 12px; border-radius: 6px; font-size: 13px; text-decoration: none; color: #fff; border: none; cursor: pointer; }
+.btn-add { background: #0d8a5f; }
+.btn-edit { background: #f0ad4e; }
+.btn-del { background: #d9534f; }
+form.form-box { background: #fff; padding: 20px; border-radius: 10px; max-width: 500px; margin-bottom: 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+form.form-box label { display: block; margin-top: 10px; font-size: 13px; font-weight: 600; }
+form.form-box input, form.form-box select, form.form-box textarea { width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #ccc; border-radius: 6px; }
+.top-actions { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+.alert { padding: 10px 14px; border-radius: 6px; margin-bottom: 14px; font-size: 14px; }
+.alert-ok { background: #e0f2ea; color: #0d8a5f; }
+.alert-err { background: #fde3e3; color: #b30000; }
